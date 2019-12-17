@@ -3,14 +3,24 @@
 ## 表示の基本
 PHP 自体は単独でも実行できるプログラム言語であるが、この講義では、それをウェブページとして表示させる。
 
+### xampp を使う場合
+
 xampp の apache を「start」しておき、
 
-http://localhost/リポジトリ名/ファイル名
+http://localhost/ リポジトリ名/ファイル名
 
 で表示させる。
 
 例：
 http://localhost/php-basics-???/hello.php
+
+### atom の php-server プラグインを使う場合
+
+php ファイルを開いた状態から Package - PHP Server - Start in folder of current file でサーバを起動する。
+→　http://localhost:8000/ でアクセスする。
+
+php-server プラグイン：
+https://atom.io/packages/php-server
 
 ## HTML 中に PHP スクリプトを埋め込む
 
